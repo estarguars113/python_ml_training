@@ -23,7 +23,6 @@ def load_dataframe(path):
     one_hot = pd.get_dummies(df['Gender'])
     df = df.drop('Gender',axis = 1)
     df = df.join(one_hot)
-    print(df.head())
     return df
 
 
@@ -34,7 +33,7 @@ def split_dataframe(df):
     print(y)
 
     # create training and testing datasets
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
     return [X_train, X_test, y_train, y_test]
 
 
