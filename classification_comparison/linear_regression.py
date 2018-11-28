@@ -42,7 +42,7 @@ if __name__ == "__main__":
     X_train, X_test, y_train, y_test = split_dataframe(df)
 
     # Create linear regression object
-    regr = linear_model.LinearRegression()
+    regr = linear_model.LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
 
     # Train the model using the training sets
     regr.fit(X_train, y_train)
