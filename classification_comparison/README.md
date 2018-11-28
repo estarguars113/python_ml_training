@@ -10,6 +10,8 @@ After that, using a kaggle dataset, we tested the same set of algorithms
     kaggle datasets download -d yersever/500-person-gender-height-weight-bodymassindex
 ```
 
+[Kaggle intro](https://www.kaggle.com/timolee/a-home-for-pandas-and-sklearn-beginner-how-tos)
+
 ### Problem Overiew ##
 
 * Gender : Male / Female
@@ -31,3 +33,15 @@ Index :
 4. Obesity
 
 5. Extreme Obesity
+
+## References ##
+
+### General ###
+
+### Data preparation ###
+
+* [Train/Test split](https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6)
+
+### Linear Regression ###
+
+### Random Forrest ###
